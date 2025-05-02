@@ -1,0 +1,12 @@
+- route:
+    id: route-7dcc
+    nodePrefixId: route-59d
+    from:
+      id: from-449e
+      uri: timer
+      parameters:
+        timerName: CustomTimer
+      steps:
+        - log:
+            id: log-5ac7
+            message: hello
