@@ -3,3 +3,5 @@ spec:
   template:
     spec:
       serviceAccount: karavan
+      imagePullSecrets:
+        - name: ghcr-secret
